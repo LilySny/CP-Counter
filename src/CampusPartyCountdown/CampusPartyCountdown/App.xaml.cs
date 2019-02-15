@@ -21,7 +21,7 @@ namespace CampusPartyCountdown
         {
             base.OnStart();
 
-            AppCenter.Start("android={Your Android App secret here};" +
+            AppCenter.Start("android=09ca5754-3daf-491a-ab33-0ffb5e755e45;" +
                             "ios={Your iOS App secret here}",
                             typeof(Analytics), typeof(Crashes));
         }
